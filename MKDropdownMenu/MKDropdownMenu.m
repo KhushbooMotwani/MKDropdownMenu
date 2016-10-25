@@ -1102,7 +1102,7 @@ static const CGFloat kScrollViewBottomSpace = 5;
             }
             
         }
-        
+        [button setAttributedTitle:@"" selectedTitle:attributedSelectedTitle];
         [button setAttributedTitle:attributedTitle selectedTitle:attributedSelectedTitle];
     }
 }
